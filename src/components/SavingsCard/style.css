@@ -1,0 +1,32 @@
+.savings-information {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.savings-pockets-list-container{
+    width: 100%;
+    /* background-color: #17151a; */
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.savings-pocket {
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: small;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.savings-pocket:hover {
+    background-color: #232027;
+}
+
+.savings-pocket-text {
+    margin: 0;
+    margin-inline: 10px;
+}

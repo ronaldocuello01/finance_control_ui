@@ -1,0 +1,52 @@
+.balance-information {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.balance-bar-container{
+    height: 30px;
+    width: 90%;
+    margin-block: 35px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.balance-bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.earnings-bar {
+    background-color: #3385ff;
+    width: 100%;
+}
+
+.expenses-bar {
+    background-color: #ff6da0;
+}
+
+.current-balance-bar {
+    background-color: #3385ff;
+}
+
+.bar-text{
+    margin: 0 0 0 10px;
+    font-size: small;
+}
+
+.show-values-icon {
+    margin-right: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    font-size: 15px;
+}

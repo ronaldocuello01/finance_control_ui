@@ -1,0 +1,35 @@
+.expense-information {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    font-size: small;
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.expense-information:hover {
+    background-color: #232027;
+}
+
+.circle-7px {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.aligned-div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.expense-amount {
+    min-width: 20%;
+    text-align: end;
+}
+
+.expense-name {
+    min-width: 50%;
+}
