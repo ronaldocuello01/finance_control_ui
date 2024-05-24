@@ -71,3 +71,6 @@ export const BALANCE_EXPENSES_TITLE = 'Expense';
 
 
 export const SAVINGS_TITLE = 'Ahorros';
+
+export const DATA_TITLE = 'All Movements';
+export const GLOBAL_MOVEMENTS_COLUMNS = [['Date', 'date'], ['Concept', 'concept'], ['Amount', 'amount'], ['Category', 'category.name'], ['Method', 'paymentMethod.name']]

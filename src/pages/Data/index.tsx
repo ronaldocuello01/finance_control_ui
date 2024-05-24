@@ -1,3 +1,4 @@
+import { MovementsCardComponent } from '../../components/MovementsCard';
 import './style.css';
 
 const DataComponent = () => {
@@ -5,8 +6,8 @@ const DataComponent = () => {
         <>
             <div className="data-container">
                 <div className="main-panel">
-                    <div className="card-header">
-                        <p className="card-header-text">titulo</p>
+                    <div className="subpanel-100">
+                        <MovementsCardComponent />
                     </div>
                 </div>
             </div>
